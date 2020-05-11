@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           WhatsApp Dark
 @namespace      github.com/sirquini/
-@version        0.1.0
+@version        0.2.0
 @description    A simple dark theme for WhatsApp Web
 @author         Sirquini (https://github.com/Sirquini)
 @homepageURL    https://github.com/Sirquini/WhatsApp-Dark
@@ -10,6 +10,19 @@
 ==/UserStyle== */
 
 @-moz-document domain("web.whatsapp.com") {
+    #startup, #initial_startup {
+        background-color: #0d0d0d;
+    }
+
+    progress, progress[value]::-webkit-progress-bar {
+        color: #008c60;
+        background-color: #181c1d;
+    }
+
+    progress[value]::-webkit-progress-value, progress[value]::-moz-progress-bar {
+        background-color: #008c60;
+    }
+
     :root {
         --gray-600: #999;
     --active-tab-marker: #009688;
@@ -318,20 +331,19 @@
         --system-message-text-rgb: 255, 255, 255;
         --notification-text: rgba(255,255,255,0.96);
         --notification-text-rgb: 255, 255, 255;
-        
     }
-    
+
     body {
         color: #b5b5b6;
         background-color: #1f1f1f;
         background-image: linear-gradient(to bottom, #1f1f1f, #1f2829);
     }
-    
+
     div._1iopp{
         background-color: #080808 !important;
     }
-    
+
     html[dir="ltr"] .message-out .tail-container.highlight {
         filter: invert(1) hue-rotate(180deg);
     }
-    }
+}
