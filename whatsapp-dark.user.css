@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           WhatsApp Dark
 @namespace      github.com/sirquini/
-@version        0.2.0
+@version        0.3.0
 @description    A simple dark theme for WhatsApp Web
 @author         Sirquini (https://github.com/Sirquini)
 @homepageURL    https://github.com/Sirquini/WhatsApp-Dark
@@ -69,18 +69,24 @@
         --border-strong-rgb: 38, 38, 38;
         --border-stronger: rgba(255,255,255,0.08);
         --border-stronger-rgb: 255, 255, 255;
-    --butterbar-background-battery: #fa685e;
-    --butterbar-background-battery-rgb: 249.69711, 103.94798, 93.50289;
-    --butterbar-background-connection: #FED859;
-    --butterbar-background-connection-rgb: 254, 216, 89;
-    --butterbar-background-default: #9DE1FE;
-    --butterbar-background-default-rgb: 157, 225, 254;
-    --butterbar-background-update: #1DE9B6;
-    --butterbar-background-update-rgb: 29, 233, 182;
-    --butterbar-primary: rgba(48,48,48,0.96);
-    --butterbar-primary-rgb: 48, 48, 48;
-    --butterbar-secondary: rgba(48,48,48,0.85);
-    --butterbar-secondary-rgb: 48, 48, 48;
+        --butterbar-battery-background: #ed5b51;
+        --butterbar-battery-background-rgb: 237,91,81;
+        --butterbar-battery-primary: #000;
+        --butterbar-battery-primary-rgb: 0,0,0;
+        --butterbar-battery-secondary: #000;
+        --butterbar-battery-secondary-rgb: 0,0,0;
+        --butterbar-connection-background: #4f2900;
+        --butterbar-connection-background-rgb: 79,41,0;
+        --butterbar-default-background: #003753;
+        --butterbar-default-background-rgb: 0,55,83;
+        --butterbar-icon: hsla(0,0%,0%,0.9);
+        --butterbar-icon-rgb: 0,0,0;
+        --butterbar-primary: rgba(207,207,207,0.96);
+        --butterbar-primary-rgb: 207,207,207;
+        --butterbar-secondary: rgba(207,207,207,0.85);
+        --butterbar-secondary-rgb: 207,207,207;
+        --butterbar-update-background: #007441;
+        --butterbar-update-background-rgb: 0,116,65;
     --button-alternative: #00A5F4;
     --button-alternative-rgb: 0, 165, 244;
     --button-alternative-background: #fff;
