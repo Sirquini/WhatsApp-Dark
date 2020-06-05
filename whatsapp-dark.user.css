@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           WhatsApp Dark
 @namespace      github.com/sirquini/
-@version        0.3.0
+@version        0.4.0
 @description    A simple dark theme for WhatsApp Web
 @author         Sirquini (https://github.com/Sirquini)
 @homepageURL    https://github.com/Sirquini/WhatsApp-Dark
@@ -235,6 +235,10 @@
         --panel-background-hover-rgb: 27, 27, 27;
         --panel-background-lighter: #080808;
         --panel-background-lighter-rgb: 8, 8, 8;
+        --panel-header-background: #121212;
+        --panel-header-background-rgb: 18, 18, 18;
+        --panel-header-icon: #6e6e6e;
+        --panel-header-icon-rgb: 110, 110, 110;
         --panel-primary: rgba(255,255,255,0.35);
         --panel-primary-rgb: 255, 255, 255;
         --payment-amount: #24b0a3;
