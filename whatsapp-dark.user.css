@@ -289,6 +289,8 @@
     --spinner-incoming-rgb: 179, 179, 179;
     --spinner-outgoing: #9aae8b;
     --spinner-outgoing-rgb: 154, 174, 139;
+        --startup-background: #0f0f0f;
+        --startup-background-rgb: 15, 15, 15;
     --status-background: #000;
     --status-background-rgb: 0, 0, 0;
     --status-background-hover: #262626;
