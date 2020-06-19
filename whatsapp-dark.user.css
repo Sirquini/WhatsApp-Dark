@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           WhatsApp Dark
 @namespace      github.com/sirquini/
-@version        0.5.0
+@version        0.6.0
 @description    A simple dark theme for WhatsApp Web
 @author         Sirquini (https://github.com/Sirquini)
 @homepageURL    https://github.com/Sirquini/WhatsApp-Dark
@@ -69,6 +69,10 @@
         --border-strong-rgb: 38, 38, 38;
         --border-stronger: rgba(255,255,255,0.08);
         --border-stronger-rgb: 255, 255, 255;
+        --bubble-meta: rgba(255,255,255,0.45);
+        --bubble-meta-rgb: 255,255,255;
+        --bubble-meta-icon: rgba(255,255,255,0.3);
+        --bubble-meta-icon-rgb: 255,255,255;
         --butterbar-battery-background: #ed5b51;
         --butterbar-battery-background-rgb: 237,91,81;
         --butterbar-battery-primary: #000;
