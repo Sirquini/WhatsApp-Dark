@@ -125,8 +125,16 @@
         --chat-marker-border-rgb: 102, 102, 102;
         --compose-background: #000;
         --compose-background-rgb: 0, 0, 0;
+        --compose-background-focused: #001826;
+        --compose-background-focused-rgb: 0, 24, 38;
+        --compose-border: #000;
+        --compose-border-rgb: 0,0,0;
+        --compose-border-focused: #001e2e;
+        --compose-border-focused-rgb: 0, 30, 46;
         --compose-panel-background: rgba(0,0,0,0.6);
         --compose-panel-background-rgb: 0, 0, 0;
+        --compose-primary: #b5b5b6;
+        --compose-primary-rgb: 181, 181, 181;
         --conversation-panel-background: #282018;
         --conversation-panel-background-rgb: 40, 32, 24;
         --conversation-panel-border: rgba(255,255,255,0.03);
