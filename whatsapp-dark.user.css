@@ -203,6 +203,8 @@
     --message-background-deep-rgb: 0, 0, 0;
     --message-placeholder-icon: rgba(48,48,48,0.3);
     --message-placeholder-icon-rgb: 48, 48, 48;
+        --message-primary: #cfcfcf;
+        --message-primary-rgb: 207, 207, 207;
         --modal-backdrop: rgba(0,0,0,0.85);
         --modal-backdrop-rgb: 0, 0, 0;
         --modal-backdrop-solid: #121212;
