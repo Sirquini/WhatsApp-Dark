@@ -273,6 +273,8 @@
     --ptt-green-rgb: 9, 210, 97;
         --rich-text-panel-background: #0f0f0f;
         --rich-text-panel-background-rgb: 15, 15, 15;
+        --search-input-background: #000;
+        --search-input-background-rgb: 0,0,0;
         --secondary: rgba(255,255,255,0.6);
         --secondary-rgb: 255, 255, 255;
         --secondary-light: rgba(255,255,255,0.25);
